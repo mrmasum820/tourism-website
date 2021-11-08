@@ -1,6 +1,18 @@
-# Getting Started with Create React App
+# Tourism Website project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- Project Name: tourism website
+
+- Project Description: We are the best of the best, recently we have been on a free medication seminar and we got a huge response and also a survey from our beloved clients.
+
+- A travel agency is a private retailer or public service that provides travel and tourism-related services to the general public on behalf of accommodation or travel suppliers to offer different kinds of travelling packages for each destination. Travel agencies can provide outdoor recreation activities, airlines, car rentals, cruise lines, hotels, railways, travel insurance, package tours, insurance, guide books, VIP airport lounge access, arranging logistics for luggage and medical items delivery for travellers upon request, public transport timetables, car rentals, and bureau de change services. Travel agencies can also serve as general sales agents for airlines that do not have offices in a specific region. A travel agency's main function is to act as an agent, selling travel products and services on behalf of a supplier. They do not keep inventory in-hand unless they have pre-booked hotel rooms or cabins on a cruise ship for a group travel event such as a wedding, honeymoon, or other group event.
+
+## code link with live site
+
+- client side link of the project(https://github.com/programming-hero-web-course1/tourism-or-delivery-website-client-side-mrmasum820)
+
+- server side link of the project(https://github.com/programming-hero-web-course1/tourism-or-delivery-website-server-side-mrmasum820)
+
+- live site link here(https://tourism-website-45c13.web.app/)
 
 ## Available Scripts
 

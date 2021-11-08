@@ -7,7 +7,7 @@ const AddPackage = () => {
     const { register, handleSubmit, reset } = useForm();
     const onSubmit = (data) => {
         console.log(data);
-        fetch(`http://localhost:5000/package`, {
+        fetch(`https://nameless-everglades-36815.herokuapp.com/package`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

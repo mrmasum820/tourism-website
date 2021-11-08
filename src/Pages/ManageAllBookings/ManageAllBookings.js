@@ -5,7 +5,7 @@ import ReviewAllBooking from './ReviewAllBooking';
 const ManageAllBookings = () => {
     const [booking, setBooking] = useState([]);
     useEffect(() => {
-        fetch(`http://localhost:5000/orders`)
+        fetch(`https://nameless-everglades-36815.herokuapp.com/orders`)
             .then(res => res.json())
             .then(data => setBooking(data))
     }, []);
@@ -13,7 +13,7 @@ const ManageAllBookings = () => {
 
         const proceed = window.confirm('Are you sure, you want to delete?');
         if (proceed) {
-            const url = `http://localhost:5000/orders/${key}`
+            const url = `https://nameless-everglades-36815.herokuapp.com/orders/${key}`
             fetch(url, {
                 method: 'DELETE'
             })
@@ -29,7 +29,7 @@ const ManageAllBookings = () => {
 
     };
     const handleApproveStatus = key => {
-        const url = `http://localhost:5000/orders/${key}`
+        const url = `https://nameless-everglades-36815.herokuapp.com/orders/${key}`
         fetch(url, {
             method: 'PUT',
             headers: {

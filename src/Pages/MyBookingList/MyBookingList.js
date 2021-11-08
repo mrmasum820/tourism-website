@@ -10,7 +10,7 @@ const MyBookingList = () => {
     const { user } = useAuth();
     const { uid } = user;
     useEffect(() => {
-        fetch(`http://localhost:5000/orders/${uid}`)
+        fetch(`https://nameless-everglades-36815.herokuapp.com/orders/${uid}`)
             .then(res => res.json())
             .then(data => setBooking(data))
     }, [uid]);
@@ -18,7 +18,7 @@ const MyBookingList = () => {
 
         const proceed = window.confirm('Are you sure, you want to delete?');
         if (proceed) {
-            const url = `http://localhost:5000/orders/${key}`
+            const url = `https://nameless-everglades-36815.herokuapp.com/orders/${key}`
             fetch(url, {
                 method: 'DELETE'
             })

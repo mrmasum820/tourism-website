@@ -1,11 +1,11 @@
 // Web App's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAX44LpDFPEzoDnW_OFTLbt_r1s_DnApiU",
-  authDomain: "tourism-website-eb478.firebaseapp.com",
-  projectId: "tourism-website-eb478",
-  storageBucket: "tourism-website-eb478.appspot.com",
-  messagingSenderId: "615253313152",
-  appId: "1:615253313152:web:429f76f1f6169678ab0865"
+  apiKey: "AIzaSyD2FBPvyV-614QtJsSAnYGVmvKJRtLsNXg",
+  authDomain: "tourism-website-45c13.firebaseapp.com",
+  projectId: "tourism-website-45c13",
+  storageBucket: "tourism-website-45c13.appspot.com",
+  messagingSenderId: "886213323316",
+  appId: "1:886213323316:web:8b122fb74a72521479b861"
 };
 
 export default firebaseConfig;

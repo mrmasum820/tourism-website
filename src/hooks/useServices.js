@@ -4,7 +4,7 @@ const useServices = () => {
     const [services, setServices] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:5000/package')
+        fetch('https://nameless-everglades-36815.herokuapp.com/package')
             .then(res => res.json())
             .then(data => setServices(data));
     }, []);
