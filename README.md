@@ -8,9 +8,9 @@
 
 ## code link with live site
 
-- client side link of the project(https://github.com/programming-hero-web-course1/tourism-or-delivery-website-client-side-mrmasum820)
+- client side link of the project(https://github.com/mrmasum820/tourism-website)
 
-- server side link of the project(https://github.com/programming-hero-web-course1/tourism-or-delivery-website-server-side-mrmasum820)
+- server side link of the project(https://github.com/mrmasum820/tourism-serverside)
 
 - live site link here(https://tourism-website-45c13.web.app/)
 
